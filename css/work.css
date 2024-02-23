@@ -13,21 +13,27 @@
 .text_work h2{
     padding: 3rem;
     font-family: "Press Start 2P", system-ui;
+    font-size: 3rem;
 
 
 }
 .text_work h3 {
     width: 40%;
     margin-left: 12rem;
+    font-family: "VT323", monospace;
+    font-size: 1.6rem;
 }
 
 .proyects_work{
     display: flex;
     flex-direction: column;
-    padding-left: 6rem;
+    padding-left: 2rem;
 }
 
 .proyects_work h3{
+    font-family: "VT323", monospace;
+    font-size: 2rem;
+    padding-left: 3rem;
 
 
 }
@@ -40,9 +46,17 @@
 
 .proyects_work li{
     padding: 2rem;
-    background-color: aqua;
 }
 
-.proyects_work img{
+.button{
+    display: flex;
+    justify-content:flex-end;
+    width: 80%;
+    font-family: "VT323", monospace;
+}
+
+.button button{
+    padding: 1rem;
+    font-size: 1.3;
 }
 
