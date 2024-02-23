@@ -3,7 +3,7 @@ nav {
     justify-content: center;
     display: flex;
     padding: 1rem;
-    background: url("/portafolio/img/navbar_background.svg");
+    background: url("/img/navbar_background.svg");
     position: fixed;
     width: 100%;
     font-family: "Press Start 2P", system-ui;
