@@ -1,0 +1,13 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    padding: 2rem;
+
+}
+
+.logo_footer{
+    font-family: Workbench, serif;
+}

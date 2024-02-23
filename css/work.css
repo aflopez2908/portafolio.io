@@ -1,0 +1,47 @@
+.work{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text_work{
+    display: flex;
+    align-items: center;
+    padding-left: 6rem;
+}
+
+.text_work h2{
+    padding: 3rem;
+
+
+}
+.text_work h3 {
+    width: 40%;
+    margin-left: 12rem;
+}
+
+.proyects_work{
+    display: flex;
+    flex-direction: column;
+    padding-left: 6rem;
+}
+
+.proyects_work h3{
+
+
+}
+
+.proyects_work ul{
+    display: flex;
+    align-items: center;
+
+}
+
+.proyects_work li{
+    padding: 2rem;
+    background-color: aqua;
+}
+
+.proyects_work img{
+}
+

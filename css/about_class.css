@@ -1,0 +1,43 @@
+.about{
+    display: flex;
+    padding: 2rem;
+}
+
+.about_text_area{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 60%;
+}
+
+.about_button_class{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+
+}
+.about_button_class button {
+
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.about_image{
+    padding: 1rem;
+    width: 300px;
+}
+
+.about h2{
+    font-family: "Press Start 2P", system-ui;
+}
+
+.about p{
+    font-family: "VT323", monospace;
+    font-size: 1.6rem;
+    width: 90%;
+}
+.about button{
+    font-family: "VT323", monospace;
+    padding: 0.8rem;
+}

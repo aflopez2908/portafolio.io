@@ -1,0 +1,20 @@
+.FloatButton{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    position: fixed;
+    right: 1rem;
+    top: 40%;
+    text-align: center;
+    z-index: 100;
+    background-color: silver;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+.FloatButton img {
+
+    padding-bottom: 1rem;
+    width: 1.5rem;
+}

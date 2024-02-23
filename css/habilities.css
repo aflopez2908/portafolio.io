@@ -1,0 +1,66 @@
+.habilities_container{
+    padding: 1rem;
+}
+.habilities_container h2{
+    padding-left: 2rem;
+    font-family: "Press Start 2P", system-ui;
+}
+.habilities_container p{
+    font-family: "VT323", monospace;
+}
+
+
+.habilities{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: stretch;
+
+}
+.content{
+    margin-right: 2rem;
+    padding: 1rem;
+    background-color: silver;
+
+
+}
+
+.habilidades {
+    display: none;
+    align-items: center;
+
+}
+.habilidades button{
+    height: 4rem;
+    justify-content: end;
+    margin-left: 2rem;
+    font-family: "VT323", monospace
+}
+
+.habilidades_content{
+    padding-left: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    margin: 2rem;
+    text-align: center;
+    color: black;
+    font-size: 1.6rem;
+}
+.habilidades img{
+    width: 10rem;
+}
+
+.tarjeta p{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+.tarjeta img{
+    width: 15rem;
+    height: 30%;
+}
