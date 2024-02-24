@@ -52,15 +52,18 @@
     font-size: 1.6rem;
 }
 .habilidades img{
-    width: 10rem;
+    width: 8rem;
 }
 
+.tarjeta{
+    height: 50%;
+}
 .tarjeta p{
     text-align: center;
     color: black;
     font-size: 2rem;
 }
 .tarjeta img{
-    width: 15rem;
+    width: 10rem;
     height: 30%;
 }

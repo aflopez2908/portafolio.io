@@ -1,0 +1,56 @@
+.head_portafolio{
+    display: flex;
+    padding-top: 6rem;
+    justify-content: center;
+    align-items: center;
+    }
+
+.text_head_portafolio{
+    padding-right: 3rem;
+}
+
+.text_head_portafolio h2{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 2.5rem;
+
+}
+.text_head_portafolio p{
+    font-family: "VT323", monospace;
+    width: 80%;
+    font-size: 1.5rem;
+}
+.head_portafolio img{
+    width: 20rem;
+}
+
+.list_portfolio{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    max-width: 66rem;
+
+}
+
+.list_portfolio li{
+
+    background-color: darkgrey;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+
+
+
+}
+.list_portfolio p{
+    font-family: "VT323", monospace;
+    max-width: 150px;
+
+
+
+}
+.list_portfolio img{
+    width: 150px;
+}
+

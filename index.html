@@ -5,8 +5,8 @@
     <title>portafolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Workbench&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Workbench&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/normalize.css">
 
@@ -16,7 +16,10 @@
     <link rel="stylesheet" href="css/about_class.css">
     <link rel="stylesheet" href="css/habilities.css">
     <link rel="stylesheet" href="css/work.css">
+    <link rel="stylesheet" href="css/contac.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="copy.js">
+
 </head>
 <body style="background-image: url(img/background.svg)">
     <header>
@@ -25,7 +28,7 @@
                 <li><a href="#welcome">home</a></li>
                 <li><a href="#about">about me</a></li>
                 <li><a href="#work">proyects</a></li>
-                <li><a href="#">contacme</a></li>
+                <li><a href="#contac">contacme</a></li>
             </ul>
         </nav>
     </header>
@@ -200,22 +203,51 @@
 
             <div class="text_work">
                 <h2>work</h2>
-                <h3>this have been my work for 3 year , if wou like you can see completly my proyects</h3>
+                <p>this have been my work for 3 year , if wou like you can see completly my proyects</p>
 
             </div>
             <div class="proyects_work">
 
-                <h3>principal proyects</h3>
                 <ul>
                     <li><img src="img/image1.svg" alt="#"></li>
                     <li><img src="img/image1.svg" alt="#"></li>
                     <li><img src="img/image1.svg" alt="#"></li>
                 </ul>
                 <div class="button">
-                <button>show more</button>
+                    <a href="portafolio.html"><button>show more</button></a>
                 </div>
             </div>
 
+
+        </div>
+        <div class="contact" id="contac">
+
+            <h2>contacme</h2>
+            <div class="contacts">
+
+                <div class="grupo">
+                    <h3>email</h3>
+                    <div class="grupo_texto">
+                        <p id="textoACopiar">aflopezrussi@gmail.com</p>
+                        <a href="mailto:aflopezrussi@gmail.com"><button><img src="img/send.svg" alt="send"></button></a>
+                        <button id="botonCopiar"><img src="img/copy.svg" alt="copy"></button>
+
+                    </div>
+                </div>
+                <div class="grupo"></div>
+
+                <div class="grupo">
+                    <h3>linkelnd</h3>
+                    <div class="grupo_texto">
+                        <p id="textoACopiar1">Alvaro Felipe Lopez Russi</p>
+                        <a href="https://www.linkedin.com/in/alvaro-felipe-lopez-russi-3a76521a1/"><button><img src="img/send.svg" alt="send"></button></a>
+                        <button id="botonCopiar1"><img src="img/copy.svg" alt="copy"></button>
+                        <script src="copy.js"></script>
+                    </div>
+                </div>
+                <div class="grupo"></div>
+
+            </div>
 
         </div>
 

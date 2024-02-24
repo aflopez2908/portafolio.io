@@ -1,0 +1,48 @@
+.contact{
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.contact h2 {
+    font-family: "Press Start 2P", system-ui;
+    text-align: center;
+    font-size: 4rem;
+    height: 50%;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+
+}
+.grupo h3{
+    font-family: "Press Start 2P", system-ui;
+}
+
+
+.grupo_texto{
+    display: flex;
+    align-items: center;
+}
+
+.grupo_texto p{
+    background-color: #7B84A4;
+    margin-right: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-family: "VT323", monospace;
+}
+
+.grupo_texto img{
+    background-color:#7B84A4 ;
+    padding: 0.5rem;
+    width:15px;
+    border-radius: 100%;
+}
+.grupo_texto button{
+    background-color:#7B84A4;
+    margin-left: 1rem;
+    border-radius: 100%;
+
+}
