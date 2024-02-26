@@ -6,8 +6,12 @@ footer{
     width: 90%;
     padding: 2rem;
 
+
 }
 
 .logo_footer{
     font-family: Workbench, serif;
+    border:2px solid white;
+    padding: 1rem;
+
 }
