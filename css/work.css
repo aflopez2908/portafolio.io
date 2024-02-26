@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 80%;
+    padding-top: 4rem;
 
 }
 
@@ -24,29 +25,37 @@
     font-size: 1.6rem;
 }
 
-.proyects_work{
-    display: flex;
-    flex-direction: column;
-    padding-left: 2rem;
-}
 
-.proyects_work h3{
+
+.list{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    max-width: 66rem;
+}
+.list li{
+
+    background-color: #7B84A4;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
     font-family: "VT323", monospace;
+}
+
+.list li h3{
     font-size: 2rem;
-    padding-left: 3rem;
+    text-decoration: none;
+}
+.list p{
+    font-family: "VT323", monospace;
+    max-width: 150px;
 
 
 }
-
-.proyects_work ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-}
-
-.proyects_work li{
-    padding: 2rem;
+.list img{
+    width: 150px;
 }
 
 .button{

@@ -1,6 +1,6 @@
 .head_portafolio{
     display: flex;
-    padding-top: 6rem;
+    padding-top: 7rem;
     justify-content: center;
     align-items: center;
     }
@@ -35,18 +35,20 @@
 
 .list_portfolio li{
 
-    background-color: darkgrey;
+    background-color: #7B84A4;
     padding: 1rem;
     margin: 1rem;
     text-align: center;
+    font-family: "VT323", monospace;
+}
 
-
-
+.list_portfolio li h3{
+    font-size: 2rem;
+    text-decoration: none;
 }
 .list_portfolio p{
     font-family: "VT323", monospace;
     max-width: 150px;
-
 
 
 }
