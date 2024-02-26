@@ -1,6 +1,8 @@
 .about{
     display: flex;
-    padding: 2rem;
+    padding: 1rem;
+    justify-content: center;
+    width: 80%;
 }
 
 .about_text_area{

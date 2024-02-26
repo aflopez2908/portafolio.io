@@ -6,9 +6,10 @@
     top: 40%;
     text-align: center;
     z-index: 100;
-    background-color: silver;
+    background-color: #7B84A4;
     padding: 1rem;
     border-radius: 1rem;
+    left: 1rem;
 
 }
 

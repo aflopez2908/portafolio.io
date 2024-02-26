@@ -1,13 +1,13 @@
 .work{
     display: flex;
     flex-direction: column;
+    width: 80%;
 
 }
 
 .text_work{
     display: flex;
     align-items: center;
-    padding-left: 6rem;
 }
 
 .text_work h2{
@@ -41,6 +41,7 @@
 .proyects_work ul{
     display: flex;
     align-items: center;
+    justify-content: space-around;
 
 }
 
