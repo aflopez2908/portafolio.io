@@ -1,0 +1,26 @@
+.about_more{
+    padding-top: 7rem;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.about_more_text{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+
+
+}
+
+.about_more_text h2{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 2rem;
+}
+.about_more_text h3{
+    font-family: "VT323", monospace;
+    font-size: 1.6rem;
+}
+.about_more_text p {
+    font-family: "VT323", monospace;
+    max-width: 80%;
+}
